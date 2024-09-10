@@ -7,7 +7,7 @@
   "scripts": {
     "start": "parcel index.html",
     "predeploy":"npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "main -d build",
     "build": "parcel build index.html",
     "test": "jest"
   },
