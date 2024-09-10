@@ -1,10 +1,13 @@
 {
+  "homepage":"https://ZohaSuhail.github.io/namaste",
   "name": "react",
   "version": "1.0.0",
   "description": "This is react",
-  "main": "App.js",
+  
   "scripts": {
     "start": "parcel index.html",
+    "predeploy":"npm run build",
+    "deploy": "gh-pages -d build",
     "build": "parcel build index.html",
     "test": "jest"
   },
