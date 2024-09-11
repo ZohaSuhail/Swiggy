@@ -1,18 +1,18 @@
 {
-  "homepage": "https://ZohaSuhail.github.io/Food_app",
+  "homepage": "https://ZohaSuhail.github.io/namste",
   "name": "react",
   "version": "1.0.0",
   "description": "This is react",
   "scripts": {
     "start": "parcel index.html",
     "predeploy": "npm run build",
-    "deploy": "gh-pages d-build",
+    "deploy": "gh-pages -d build",
     "build": "parcel build index.html",
     "test": "jest"
   },
   "repository": {
     "type": "git",
-    "url": "(https://github.com/ZohaSuhail/Food_app.git)"
+    "url": "(https://github.com/ZohaSuhail/namste.git)"
   },
   "keywords": [
     "react"
