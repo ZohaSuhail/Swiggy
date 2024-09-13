@@ -4,11 +4,8 @@
       {
         "src": "App.js",
         "use": "@vercel/node"
-      },
-      {
-        "src": "build/**",
-        "use": "@vercel/static"
       }
+
     ],
 
 
