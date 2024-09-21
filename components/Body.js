@@ -19,7 +19,7 @@ const Body = () => {
 
     const fetchdata = async () => {
         const data = await fetch(
-            "https://www.swiggy.com/dapi/restaurants/list/v5?lat=25.3330529&lng=83.0069298&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING",
+            "https://cors-anywhere.herokuapp.com//www.swiggy.com/dapi/restaurants/list/v5?lat=25.3330529&lng=83.0069298&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING",
             headers:{
                  'Access-Control-Allow-Origin':'*'
             }
