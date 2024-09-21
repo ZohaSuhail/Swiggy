@@ -10,7 +10,7 @@ const useRestaurantMenu = (resId) => {
 
 
     const fetchMenu = async () => {
-       const data=await fetch("http://localhost:3000/restaurants/"+ resId);
+       const data=await fetch("https://swiggy-self.vercel.app/restaurants/253772/restaurants/"+ resId);
        const json=await data.json();
        setresInfo(json.data);
     };
