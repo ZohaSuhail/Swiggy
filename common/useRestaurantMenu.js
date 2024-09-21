@@ -10,7 +10,7 @@ const useRestaurantMenu = (resId) => {
 
 
     const fetchMenu = async () => {
-       const data=await fetch(`https://swiggy-backend-e8vx11s7g-zoha-suhails-projects.vercel.app/restaurants/${resId}`);
+       const data=await fetch(`https://swiggy-backend-6ll51eu6r-zoha-suhails-projects.vercel.app/restaurants/${resId}`);
        const json=await data.json();
        setresInfo(json.data);
     };
