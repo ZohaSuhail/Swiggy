@@ -18,7 +18,7 @@ const Body = () => {
 
 const url = 'https://www.swiggy.com/dapi/restaurants/list/v5?lat=25.3330529&lng=83.0069298&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING';
     const fetchdata = async () => {
-        const data = await fetch("http://localhost:3000/");
+        const data = await fetch("https://swiggy-backend-e8vx11s7g-zoha-suhails-projects.vercel.app/");
         
         const json = await data.json();
         //console.log(json);
