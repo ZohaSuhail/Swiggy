@@ -16,7 +16,7 @@ const Body = () => {
         fetchdata();
     }, []);
 
-const url = 'https://gobetween.oklabs.org/' + 'https://www.swiggy.com/dapi/restaurants/list/v5?lat=25.3330529&lng=83.0069298&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING';
+const url = 'https://www.swiggy.com/dapi/restaurants/list/v5?lat=25.3330529&lng=83.0069298&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING';
     const fetchdata = async () => {
         const data = await fetch(url
             ,
