@@ -1,7 +1,7 @@
 import React from "react";
 const Contact = () => {
     return (
-        <div className="w-7/12  mx-auto  my-4 bg-gray-50 shadow-lg p-4 ">
+        <div className="w-7/12  mx-auto  my-6 bg-gray-50 shadow-lg p-4 ">
             <h1 className="font-bold text-3xl p-4 m-4 text-center">Contact Us Page</h1>
             <div>
                 <form className="flex flex-col">

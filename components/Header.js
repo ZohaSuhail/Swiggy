@@ -25,12 +25,10 @@ const Header = () => {
             </div>
             <div className="flex items-center">
                 <ul className="flex p-4 m-4">
-                    <li className="p-4">
-                        Online Status:{onlineStatus ? "✅" : "❓"}
-                    </li>
+
 
                     <li className="p-4"><Link to="/">Home</Link></li>
-                    
+
                     <li className="p-4"><Link to="/about">About Us</Link></li>
                     <li className="p-4"><Link to="/contact"> Contact Us</Link></li>
 
@@ -44,6 +42,9 @@ const Header = () => {
                     </button>
 
                     <li className="p-4 font-bold">{LoggedInUser}</li>
+                    <li className="p-4">
+                        Online Status:{onlineStatus ? "✅" : "❓"}
+                    </li>
                 </ul>
             </div>
         </div>
