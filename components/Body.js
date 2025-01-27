@@ -22,8 +22,8 @@ const url = 'https://www.swiggy.com/dapi/restaurants/list/v5?lat=25.3330529&lng=
         
         const json = await data.json();
         //console.log(json);
-        setlistOfRestaurant(json?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
-        setfilterdRestaurant(json?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
+        setlistOfRestaurant(json?.data?.cards[2]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
+        setfilterdRestaurant(json?.data?.cards[2]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
     };
     const onlineStatus = useOnlineStatus();
     if (onlineStatus == false)
